@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M151", "M151\M151.csproj", "{AC937D73-B24D-4ECF-9501-C6A0BD680FD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M151.Shared", "M151.Shared\M151.Shared.csproj", "{829FABFE-BDC7-426E-A0E5-64377ABC2A66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M151.Data", "M151.Shared\M151.Data.csproj", "{829FABFE-BDC7-426E-A0E5-64377ABC2A66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M151.Shared", "M151.Data\M151.Shared.csproj", "{018C4947-6993-4B84-9B79-57EA20BE75A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{829FABFE-BDC7-426E-A0E5-64377ABC2A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{829FABFE-BDC7-426E-A0E5-64377ABC2A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{829FABFE-BDC7-426E-A0E5-64377ABC2A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018C4947-6993-4B84-9B79-57EA20BE75A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018C4947-6993-4B84-9B79-57EA20BE75A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018C4947-6993-4B84-9B79-57EA20BE75A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018C4947-6993-4B84-9B79-57EA20BE75A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

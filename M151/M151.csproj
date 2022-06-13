@@ -251,9 +251,9 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\M151.Shared\M151.Shared.csproj">
+    <ProjectReference Include="..\M151.Shared\M151.Data.csproj">
       <Project>{829fabfe-bdc7-426e-a0e5-64377abc2a66}</Project>
-      <Name>M151.Shared</Name>
+      <Name>M151.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

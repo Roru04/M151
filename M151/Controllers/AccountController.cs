@@ -8,7 +8,7 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using M151.Shared.Models;
+using M151.Data.Models;
 
 namespace M151.Controllers
 {

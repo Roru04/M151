@@ -5,7 +5,7 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using M151.Shared.Models;
+using M151.Data.Models;
 
 namespace M151
 {
