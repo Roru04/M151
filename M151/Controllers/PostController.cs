@@ -12,7 +12,7 @@ namespace M151.Controllers
     public class PostController : Controller
     {
         public PostActions actions = new PostActions();
-       
+
         [Authorize]
         // GET: Post
         public ActionResult Index(bool? hasPosted = null)
@@ -26,7 +26,7 @@ namespace M151.Controllers
         //Save a new post in the db
         public ActionResult Index(Post post)
         {
-            
+
             actions.SavePost(post, User.Identity.GetUserName(), User.Identity.GetUserId());
             ViewBag.WasPostingSuccess = true;
             return View();
