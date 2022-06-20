@@ -10,6 +10,11 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using M151.Data.Models;
 
+//This code basically manages the Account Login/Logout and the Registration site
+//It also confirmes the Email, can reset the password in case it gets forgotten,
+//verifies and sends the confirmation code. Manages an External Login,
+//And manages the confirmation messages for the external Login,
+//resetting passwords and forgetting the password
 namespace M151.Controllers
 {
     [Authorize]

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using System.Security.Principal;
 
+//Makes the posting posts on our website possible
 namespace M151.Shared
 {
     public class PostActions

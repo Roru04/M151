@@ -7,6 +7,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+//This code makes it possible to post a new post and display the posts
+//that are already uploaded
 namespace M151.Controllers
 {
     public class PostController : Controller

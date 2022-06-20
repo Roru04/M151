@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
-
+//Is the Model of the manage view
 namespace M151.Data.Models
 {
     public class IndexViewModel

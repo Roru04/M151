@@ -8,6 +8,8 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using M151.Data.Models;
 
+//The Manage Controller, manages the account, such as adding/verifying/removing
+//a phone number,removing/managing the Login, changing and setting the password. 
 namespace M151.Controllers
 {
     [Authorize]
