@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
-
+//Is the Model of the posting part of our application
 namespace M151.Data.Models
 {
     public class Post

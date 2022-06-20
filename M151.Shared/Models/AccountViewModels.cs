@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
+//Is the Model of the account view
 namespace M151.Data.Models
 {
     public class ExternalLoginConfirmationViewModel
