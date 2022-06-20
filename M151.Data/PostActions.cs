@@ -29,5 +29,14 @@ namespace M151.Shared
 
 
         }
+
+        public IEnumerable<Post> ShowPosts()
+        {
+            using (ApplicationDbContext context = new ApplicationDbContext())
+            {
+                IEnumerable<Post> allPosts = context.Posts.OrderByDescending(p => p.date).ToList();
+                return allPosts;
+            }
+        }
     }
 }

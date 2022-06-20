@@ -31,5 +31,14 @@ namespace M151.Controllers
             ViewBag.WasPostingSuccess = true;
             return View();
         }
+
+        [Authorize]
+        [HttpGet]
+        //Displays all posts
+        public ActionResult ShowPosts()
+        {
+
+            return View(actions.ShowPosts());
+        }
     }
 }
