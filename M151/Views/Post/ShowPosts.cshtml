@@ -1,0 +1,38 @@
+﻿@model IEnumerable<M151.Data.Models.Post>
+
+<h2>ShowPosts</h2>
+<hr />
+<p><a href="/Post/SortLikes" class="btn btn-primary">Sort by likes</a></p>
+
+@using (Html.BeginForm("SearchPost", "Post", FormMethod.Get, new { @class = "form-horizontal", role = "form" }))
+{
+
+
+    <p>
+        <span>Title: </span><input type="text" name="querry" />
+    </p>
+}
+<br />
+<br />
+@if (Model != null)
+{
+    foreach (Clonestagram.Models.Post post in Model)
+    {
+        <div class="jumbotron">
+            <h3>On @post.date.ToString("MM/dd/yyyy") at @post.date.ToString("HH:mm")  @post.ApplicationUserName has posted</h3>
+            <h2>@post.Title</h2>
+            <p>@post.Content</p>
+            @Html.ActionLink("Delete", "DeletePost", "Post", new { id = post.Id }, new { @class = "btn btn-default" })
+            @Html.ActionLink("Like", "Like", "Post", new { id = post.Id }, new { @class = "btn btn-default" })
+            @Html.ActionLink("Comment", "NewComment", "Comment", new { id = post.Id }, new { @class = "btn btn-default" })
+            <p>@post.Likes Likes | @post.Comments Comments</p>
+
+
+        </div>
+    }
+
+}
+else
+{
+    <p>there arent any posts yet...</p>
+}
